@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{197b388b-ceee-4cc5-84c9-8fa7dd6cc7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameComponents">
+      <UniqueIdentifier>{f7440687-f4de-4771-b67d-cbcf612a5c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameControllers">
+      <UniqueIdentifier>{141b91ce-14de-4ba3-8fe6-364954317b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Scenes">
+      <UniqueIdentifier>{38454f69-4d64-4130-ae8e-c136925d0f50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Game.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameGlobal.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameTime.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Sprite.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Scene.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControllers\SceneManager.cpp">
+      <Filter>FrameWork\GameControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Stage1Scene.cpp">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Player.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameComponents\Game.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameGlobal.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameTime.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Sprite.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Scene.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameControllers\SceneManager.h">
+      <Filter>FrameWork\GameControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Stage1Scene.h">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Player.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
