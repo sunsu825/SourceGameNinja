@@ -85,10 +85,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameComponents\Player.cpp" />
     <ClCompile Include="GameComponents\Game.cpp" />
     <ClCompile Include="GameComponents\GameGlobal.cpp" />
     <ClCompile Include="GameComponents\GameTime.cpp" />
-    <ClCompile Include="GameComponents\Player.cpp" />
     <ClCompile Include="GameComponents\Scene.cpp" />
     <ClCompile Include="GameComponents\Sprite.cpp" />
     <ClCompile Include="GameControllers\SceneManager.cpp" />
@@ -96,10 +96,10 @@
     <ClCompile Include="Scenes\Stage1Scene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameComponents\Player.h" />
     <ClInclude Include="GameComponents\Game.h" />
     <ClInclude Include="GameComponents\GameGlobal.h" />
     <ClInclude Include="GameComponents\GameTime.h" />
-    <ClInclude Include="GameComponents\Player.h" />
     <ClInclude Include="GameComponents\Scene.h" />
     <ClInclude Include="GameComponents\Sprite.h" />
     <ClInclude Include="GameControllers\SceneManager.h" />

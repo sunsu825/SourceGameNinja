@@ -1,5 +1,7 @@
 ﻿  Stage1Scene.cpp
-h:\bt-game\4 - scene va scene manager (1)\directxgame\demodirectx\scenes\stage1scene.cpp(29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-h:\bt-game\4 - scene va scene manager (1)\directxgame\demodirectx\scenes\stage1scene.cpp(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-h:\bt-game\4 - scene va scene manager (1)\directxgame\demodirectx\scenes\stage1scene.cpp(46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  DemoDirectX.vcxproj -> H:\BT-Game\4 - scene va scene manager (1)\DirectXGame\Debug\DemoDirectX.exe
+h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(29): warning C4305: 'argument': truncation from 'double' to 'float'
+h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  DemoDirectX.vcxproj -> H:\BT-Game\SourceGameNinja\DirectXGame\Debug\DemoDirectX.exe

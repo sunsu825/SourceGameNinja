@@ -5,9 +5,10 @@
 #include <d3dx9.h>
 #include <d3d9.h>
 
-#include "../GameComponents/Player.h"
+//#include "../GameComponents/Player.h"
 #include "../GameComponents/Scene.h"
 #include "../GameComponents/Sprite.h"
+#include "../GameComponents/Player.h"
 
 class Stage1Scene : public Scene
 {
@@ -18,9 +19,15 @@ public:
     void LoadContent();
     void Draw();
 
+	void OnKeyDown(int keyCode);
+	void OnKeyUp(int keyCode);
+
 protected:
+	Sprite *sprite;
+	Player *mPlayer;
     std::vector<Sprite*> mSprite;
-	Player *player;
+	//Player *player;
+	//Animation *animation;
 
     float mTimeCounter;
 };
