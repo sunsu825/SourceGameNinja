@@ -5,7 +5,7 @@
 #include <d3dx9.h>
 #include <d3d9.h>
 
-//#include "../GameComponents/Player.h"
+#include "../GameComponents/GameMap.h"
 #include "../GameComponents/Scene.h"
 #include "../GameComponents/Sprite.h"
 #include "../GameComponents/Player.h"
@@ -23,6 +23,7 @@ public:
 	void OnKeyUp(int keyCode);
 
 protected:
+	GameMap *mGameMap;
 	Sprite *sprite;
 	Player *mPlayer;
     std::vector<Sprite*> mSprite;

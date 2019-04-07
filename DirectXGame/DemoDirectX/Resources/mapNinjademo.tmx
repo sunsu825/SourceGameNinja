@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="60" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="NinjaMap.tsx"/>
+ <layer id="3" name="River" width="60" height="6">
+  <data encoding="base64" compression="zlib">
+   eJwNwwOMEAAAAMDPrs/WZ9vWf7Zt27Vl27Ztbtm2bZtb7ra7UAEBAaENY1jDGd4IRjSSkY1iVKMZ3RgGGtNYxjaOcY1nfBOY0EQmNolJTWZyU5jSIFOZ2jSmNZ3pzWBGM5nZLGY1m9nNYU5zmds85jWf+S1gQQtZ2GIWt4QlLWVpyxhsiGUtZ3krWNFKVraKVa1mdWtY01rWto51rWd9G9jQRja2iU1tZnNb2NJWtraNbW1nezvY0U52totd7WZ3e9jTXva2j33tZ38HONBBDnaIQx3mcEc40lGOdoxjHed4JzjRSU52ilOd5nRnONNZznaOc53nfBe40EUudolLXeZyV7jSVa52jWtd53o3uNFNbnaLW93mdne4013udo973ed+D3jQQx72iEc95nFPeNJTnvaMZz3neS940Ute9opXveZ1b3jTW972jne9530f+NBHPvaJT33mc1/40le+9o1vfed7P/jRT372i1/95nd/+NNf/vaPf/1nQCgMbRjDGs7wRjCikYxsFKMazejGMNCYxjK2cYxrPOObwIQmMrFJTGoyk5vClAaZytSmMa3pTG8GM5rJzGYxq9nMbg5zmsvc5jO/BSxoIQtbxKIWs7glLGkpS1vGYEMsaznLW8GKVrKyVaxqNatbw5rWsrZ1rGs969vAhjaysU1sajOb28KWtrK1bWxrO9vbwY52srNd7Go3u/sfkt2UTg==
+  </data>
+ </layer>
+</map>

@@ -17,14 +17,14 @@ void Stage1Scene::LoadContent()
 
    
         //tao nhung normalbrick tu hinh anh theo duong dan
-        sprite = new Sprite("imageGameNija/NinjaGaidenMapStage3-1BG.png");
-
-        //set random position cho cac sprite tu 0 -> 500 theo x, y
-        //sprite->SetPosition(rand() % 500, rand() % 500);
+        //sprite = new Sprite("imageGameNija/NinjaGaidenMapStage3-1BG.png");
 
         //add sprite vao vector
-        mSprite.push_back(sprite);
+        //mSprite.push_back(sprite);
 	
+	// load map 
+	mGameMap = new GameMap("Resources/mapNinjademo.tmx");
+
 		// create Player with filePath, totalFrame, number row, number column, timePerFrame
 		mPlayer = new Player("imageGameNija/RyuR.png", 1, 1, 1, 0.55);
 		mPlayer->SetPosition(GameGlobal::GetWidth() / 3, 3.5*GameGlobal::GetHeight() / 5 + 25);

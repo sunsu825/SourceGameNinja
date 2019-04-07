@@ -59,11 +59,12 @@
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CallingConvention>StdCall</CallingConvention>
       <SDLCheck>true</SDLCheck>
+      <UseFullPaths>true</UseFullPaths>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;dinput8.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;dinput8.lib;winmm.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -85,6 +86,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameComponents\GameMap.cpp" />
     <ClCompile Include="GameComponents\Player.cpp" />
     <ClCompile Include="GameComponents\Game.cpp" />
     <ClCompile Include="GameComponents\GameGlobal.cpp" />
@@ -96,6 +98,7 @@
     <ClCompile Include="Scenes\Stage1Scene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameComponents\GameMap.h" />
     <ClInclude Include="GameComponents\Player.h" />
     <ClInclude Include="GameComponents\Game.h" />
     <ClInclude Include="GameComponents\GameGlobal.h" />
@@ -103,6 +106,7 @@
     <ClInclude Include="GameComponents\Scene.h" />
     <ClInclude Include="GameComponents\Sprite.h" />
     <ClInclude Include="GameControllers\SceneManager.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Scenes\Stage1Scene.h" />
   </ItemGroup>
   <ItemGroup>
