@@ -23,7 +23,7 @@ public:
 	void OnKeyUp(int keyCode);
 
 protected:
-	GameMap *mGameMap;
+//	GameMap *mGameMap;
 	Sprite *sprite;
 	Player *mPlayer;
     std::vector<Sprite*> mSprite;

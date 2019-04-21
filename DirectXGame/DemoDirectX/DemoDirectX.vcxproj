@@ -86,6 +86,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameComponents\Cameracpp.cpp" />
     <ClCompile Include="GameComponents\GameMap.cpp" />
     <ClCompile Include="GameComponents\Player.cpp" />
     <ClCompile Include="GameComponents\Game.cpp" />
@@ -98,6 +99,7 @@
     <ClCompile Include="Scenes\Stage1Scene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameComponents\Camera.h" />
     <ClInclude Include="GameComponents\GameMap.h" />
     <ClInclude Include="GameComponents\Player.h" />
     <ClInclude Include="GameComponents\Game.h" />

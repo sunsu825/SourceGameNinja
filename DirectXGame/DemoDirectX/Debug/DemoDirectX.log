@@ -1,31 +1,7 @@
-﻿  GameMap.cpp
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\gamemap.cpp(24): warning C4018: '<': signed/unsigned mismatch
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\gamemap.cpp(61): warning C4018: '<': signed/unsigned mismatch
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\gamemap.cpp(75): warning C4018: '<': signed/unsigned mismatch
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\gamemap.cpp(77): warning C4018: '<': signed/unsigned mismatch
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\gamemap.cpp(103): warning C4244: 'argument': conversion from 'size_t' to 'FLOAT', possible loss of data
-  Player.cpp
-  Game.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\game.cpp(8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\game.cpp(76): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
-  GameGlobal.cpp
-  GameTime.cpp
-  Scene.cpp
-  Sprite.cpp
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\sprite.cpp(21): warning C4101: 'result': unreferenced local variable
-h:\bt-game\sourcegameninja\directxgame\demodirectx\gamecomponents\sprite.cpp(136): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
-  SceneManager.cpp
-  main.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Stage1Scene.cpp
+﻿  Stage1Scene.cpp
 h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(29): warning C4305: 'argument': truncation from 'double' to 'float'
 h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 h:\bt-game\sourcegameninja\directxgame\demodirectx\scenes\stage1scene.cpp(52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Generating Code...
-GameMap.obj : error LNK2019: unresolved external symbol "public: __thiscall Tmx::Map::Map(void)" (??0Map@Tmx@@QAE@XZ) referenced in function "private: void __thiscall GameMap::LoadMap(char *)" (?LoadMap@GameMap@@AAEXPAD@Z)
-GameMap.obj : error LNK2019: unresolved external symbol "public: __thiscall Tmx::Map::~Map(void)" (??1Map@Tmx@@QAE@XZ) referenced in function "public: void * __thiscall Tmx::Map::`scalar deleting destructor'(unsigned int)" (??_GMap@Tmx@@QAEPAXI@Z)
-GameMap.obj : error LNK2019: unresolved external symbol "public: void __thiscall Tmx::Map::ParseFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?ParseFile@Map@Tmx@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "private: void __thiscall GameMap::LoadMap(char *)" (?LoadMap@GameMap@@AAEXPAD@Z)
-H:\BT-Game\SourceGameNinja\DirectXGame\Debug\DemoDirectX.exe : fatal error LNK1120: 3 unresolved externals
+  DemoDirectX.vcxproj -> H:\BT-Game\SourceGameNinja\DirectXGame\Debug\DemoDirectX.exe

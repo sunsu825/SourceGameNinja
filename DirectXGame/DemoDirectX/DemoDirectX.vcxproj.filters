@@ -58,6 +58,9 @@
     <ClCompile Include="GameComponents\GameMap.cpp">
       <Filter>FrameWork\GameComponents</Filter>
     </ClCompile>
+    <ClCompile Include="GameComponents\Cameracpp.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameComponents\Game.h">
@@ -89,6 +92,9 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Camera.h">
+      <Filter>FrameWork\GameComponents</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
